@@ -11,8 +11,7 @@ def calculo(valor_saque):
 			print(f"{quantidade_de_cedulas} de R$ {cedula}")
 			valor_saque = valor_saque % cedula
 
-				
-
+		
 def saque(valor_saque):
 	if valor_saque % 2 == 0:
 		calculo(valor_saque)
