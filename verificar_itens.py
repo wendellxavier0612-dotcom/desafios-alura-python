@@ -1,9 +1,12 @@
 despensa = ['sal', 'trigo', 'ovos']
 
 def verificar_item():
+
 	try:
-		item_verificar = str(input('Digite o item que você quer verificar: ')).lower()
-		if not item_verificar in despensa:
+		item_verificar = str(input('Digite o item que você quer verificar: ').lower())
+		if item_verificar.isdigit():
+			return verificar_item()
+		elif not item_verificar in despensa:
 			print(f'O {item_verificar} precisa ser comprado.')
 		else:
 			print(f'O {item_verificar} está na despensa.')
