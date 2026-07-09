@@ -1,8 +1,19 @@
 # Desafios Alura - Python
 
-Repositório com pequenos projetos e exercícios desenvolvidos durante meus estudos de Python na [Alura](https://www.alura.com.br/), cobrindo desde lógica básica até estruturas de dados, funções avançadas e pequenos sistemas simulados.
+Repositório com pequenos projetos e exercícios desenvolvidos durante meus estudos de Python na [Alura](https://www.alura.com.br/), cobrindo desde lógica básica até estruturas de dados, conjuntos, dicionários e funções avançadas.
+
+## 📂 Estrutura
+
+```
+desafios-alura-python/
+├── dicionarios-e-conjuntos/   → módulo de sets e dicts (ver README da pasta)
+└── (arquivos na raiz)         → módulos anteriores: cálculos, texto, listas, sistemas, jogos
+```
 
 ## 📂 Projetos
+
+### 🗂️ Conjuntos e Dicionários
+Módulo dedicado, na pasta [`dicionarios-e-conjuntos/`](./dicionarios-e-conjuntos) — 10 exercícios praticando `set` e `dict` (união, interseção, diferença, iteração, atualização). Veja o [README da pasta](./dicionarios-e-conjuntos/README.md) para a lista completa.
 
 ### 🔢 Cálculos e conversões
 - **calcula_ano.py** — Cálculo relacionado a datas/anos
@@ -53,8 +64,8 @@ Repositório com pequenos projetos e exercícios desenvolvidos durante meus estu
 ## ▶️ Como executar
 
 1. Clone este repositório
-2. Execute o arquivo desejado: `python nome_do_arquivo.py`
+2. Execute o arquivo desejado: `python nome_do_arquivo.py` (arquivos dentro de `dicionarios-e-conjuntos/` precisam ser executados de dentro dessa pasta, ou referenciando o caminho completo)
 
 ## 📚 Sobre
 
-Projetos criados durante o curso de Python da [Alura](https://www.alura.com.br/), como prática dos conceitos aprendidos — de lógica básica até manipulação de estruturas de dados e funções mais avançadas.
+Projetos criados durante o curso de Python da [Alura](https://www.alura.com.br/), como prática dos conceitos aprendidos — de lógica básica até conjuntos, dicionários e funções mais avançadas.
