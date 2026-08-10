@@ -1,19 +1,27 @@
 # Desafios Alura - Python
 
-Repositório com pequenos projetos e exercícios desenvolvidos durante meus estudos de Python na [Alura](https://www.alura.com.br/), cobrindo desde lógica básica até estruturas de dados, conjuntos, dicionários e funções avançadas.
+Repositório com pequenos projetos e exercícios desenvolvidos durante meus estudos de Python na [Alura](https://www.alura.com.br/), cobrindo desde lógica básica até estruturas de dados, conjuntos, dicionários, manipulação de arquivos, regex e funções avançadas.
 
 ## 📂 Estrutura
 
 ```
 desafios-alura-python/
-├── dicionarios-e-conjuntos/   → módulo de sets e dicts (ver README da pasta)
-└── (arquivos na raiz)         → módulos anteriores: cálculos, texto, listas, sistemas, jogos
+├── dicionarios-e-conjuntos/       → módulo de sets e dicts (ver README da pasta)
+├── manipulacao-arquivos-csv/      → módulo de leitura/escrita de CSV (ver README da pasta)
+├── trabalhando-com-string-e-regex/→ módulo de strings e expressões regulares
+└── (arquivos na raiz)             → módulos anteriores: cálculos, texto, listas, sistemas, jogos
 ```
 
 ## 📂 Projetos
 
 ### 🗂️ Conjuntos e Dicionários
 Módulo dedicado, na pasta [`dicionarios-e-conjuntos/`](./dicionarios-e-conjuntos) — 10 exercícios praticando `set` e `dict` (união, interseção, diferença, iteração, atualização). Veja o [README da pasta](./dicionarios-e-conjuntos/README.md) para a lista completa.
+
+### 📄 Manipulação de arquivos CSV
+Módulo dedicado, na pasta [`manipulacao-arquivos-csv/`](./manipulacao-arquivos-csv) — programa de controle de notas de alunos com leitura e escrita em CSV (`controle_notas.py`). Veja o [README da pasta](./manipulacao-arquivos-csv/README.md) para detalhes.
+
+### 🔍 Strings e Regex
+Módulo dedicado, na pasta [`trabalhando-com-string-e-regex/`](./trabalhando-com-string-e-regex) — 10 exercícios de manipulação de strings e expressões regulares (validação de CPF, URL, extração de dados de texto, substituição de palavras, entre outros).
 
 ### 🔢 Cálculos e conversões
 - **calcula_ano.py** — Cálculo relacionado a datas/anos
@@ -64,8 +72,8 @@ Módulo dedicado, na pasta [`dicionarios-e-conjuntos/`](./dicionarios-e-conjunto
 ## ▶️ Como executar
 
 1. Clone este repositório
-2. Execute o arquivo desejado: `python nome_do_arquivo.py` (arquivos dentro de `dicionarios-e-conjuntos/` precisam ser executados de dentro dessa pasta, ou referenciando o caminho completo)
+2. Execute o arquivo desejado: `python nome_do_arquivo.py` (arquivos dentro das pastas `dicionarios-e-conjuntos/`, `manipulacao-arquivos-csv/` e `trabalhando-com-string-e-regex/` precisam ser executados de dentro da respectiva pasta, ou referenciando o caminho completo)
 
 ## 📚 Sobre
 
-Projetos criados durante o curso de Python da [Alura](https://www.alura.com.br/), como prática dos conceitos aprendidos — de lógica básica até conjuntos, dicionários e funções mais avançadas.
+Projetos criados durante o curso de Python da [Alura](https://www.alura.com.br/), como prática dos conceitos aprendidos — de lógica básica até conjuntos, dicionários, manipulação de arquivos, regex e funções mais avançadas.
