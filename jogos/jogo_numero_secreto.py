@@ -31,19 +31,6 @@ def jogar_novamente_jogo():
 	else:
 		print("Obrigado por jogar!")
 
-
-		
-	
-
-		
-
-
-
-
-
-
-
-
 def main():
 	os.system('cls')
 	jogo_numero_secreto()
